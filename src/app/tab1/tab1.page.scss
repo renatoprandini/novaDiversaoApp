@@ -1,0 +1,50 @@
+.banner{
+    background-image: url(https://image.tmdb.org/t/p/original/97GsCX3k6BbprnBIIMlVKirmhLz.jpg);
+    width: 100%;
+    position: relative;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+
+    .info-banner{
+        position: absolute;
+        bottom: 15px;
+
+        h1, p{
+            color: #fff;
+        }
+
+        h1{
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        p{
+            font-size: 12px;
+            margin: 0;
+            margin-bottom: 15px;
+            font-weight: bold;
+
+            .fetaria{
+                background-color: #e7213c;
+                border-radius: 10%;
+                padding-right: 2.5px;
+            }
+        }
+    }
+}
+
+ion-grid{
+    position: absolute;
+    top: 180px;
+
+    h1{
+        font-weight: bolder;
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: #7e7a7a;
+    }
+}
