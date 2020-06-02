@@ -1,0 +1,53 @@
+.imagens{
+    position: relative;
+    width: 100%;
+    margin:0;
+}
+
+.frase{
+    padding-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(168, 167, 167);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.info{
+  color: #fff;
+  font-size: 17px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tipo{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 40px;
+}
+
+.sinopse{
+    padding-left: 10px;
+}
+
+.classificacao{
+    background-color: black;
+    border-radius: 20%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.avaliacao {
+    margin-top: 10px;
+    font-size: 60px !important;
+}
+
+.elenco{
+    padding-left: 10px;
+
+    ion-card{
+        color: black;
+        text-align: center;
+    }
+}

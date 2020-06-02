@@ -1,0 +1,77 @@
+ion-title {
+  font-weight: bolder;
+}
+
+.capa {
+  background-image: linear-gradient(
+      to right,
+      rgb(69, 79, 83) 150px,
+      rgba(108, 115, 117, 0.84) 100%
+    ),
+    url(https://image.tmdb.org/t/p/w1066_and_h600_bestv2/5BwqwxMEjeFtdknRV792Svo0K1v.jpg);
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+}
+
+.info-filme {
+  color: #fff;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.avaliacao {
+  margin-top: 10px;
+  font-size: 60px !important;
+}
+
+.frase {
+  color: rgb(168, 167, 167);
+  font-size: 17px;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.info-add {
+  position: absolute;
+  padding: 5px 15px 5px 15px;
+  font-family: Arial, Helvetica, sans-serif, "Times New Roman", Times, serif;
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+}
+
+.trailer {
+  padding-top: 15px;
+
+  a {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: inherit;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: rgb(168, 167, 167);
+  }
+}

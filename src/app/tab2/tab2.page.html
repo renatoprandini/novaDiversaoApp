@@ -7,7 +7,8 @@
 </ion-header>
 
 <ion-content color="medium">
-  <ion-card>
+  <!-- Flash -->
+  <ion-card routerLink="/flash">
     <ion-card-header color="dark">
       <img
         src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/jC1KqsFx8ZyqJyQa2Ohi7xgL7XC.jpg"
@@ -18,22 +19,34 @@
       <h1>Flash <span>(2014)</span></h1>
     </ion-item>
 
-    <ion-item color="medium">
-      <div  class="info ion-text-center">
+    <ion-item color="dark">
+      <div class="info ion-text-center">
         <span class="tipo">TV-PG</span> <span class="duracao">44m</span>
         <p>Drama, Sci-fi & Fantasia</p>
       </div>
     </ion-item>
 
+  </ion-card>
+
+  <!-- Breaking Bad -->
+  <ion-card routerLink="/breaking-bad">
+    <ion-card-header color="dark">
+      <img
+        src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg"
+      />
+    </ion-card-header>
+
     <ion-item color="dark">
-      <div>
-        <h2>Sinopse</h2>
-        <p>
-          Barry enfrenta diversos assassinos que invadem a premiação onde ele
-          acompanha Iris, mas os efeitos colaterais de seus novos superpoderes
-          representam uma ameaça.
-        </p>
+      <h1>Breaking Bad <span>(2008)</span></h1>
+    </ion-item>
+
+    <ion-item color="dark">
+      <div class="info ion-text-center">
+        <span class="tipo">TV-MA</span> <span class="duracao">45m</span>
+        <p>Drama</p>
       </div>
     </ion-item>
+
+  
   </ion-card>
 </ion-content>
